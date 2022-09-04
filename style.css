@@ -80,11 +80,12 @@ main {
   transition-property: all;
   transition: 2s;
   transition-delay: 0.2s;
-
+  filter: blur(2px) brightness(0.5);
 }
 .card img:hover {
   transform: scale(1.1);
   opacity: 0.5;
+  filter: blur(0px);
 }
 
 .card h2 {
