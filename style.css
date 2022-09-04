@@ -13,7 +13,7 @@
   --fc-secondary-dark: hsla(var(--hue), 100%, 11%, 1);
   font-size: 62.5%;
   --fs-body:1.6rem;
-  --fs-heading: 5.6rem;
+  --fs-heading: 4.0rem;
   
 }
 body {
@@ -58,7 +58,8 @@ header h1 {
 }
 
 main {
-
+  display: grid;
+  gap: 3.2rem;
 }
 
 .card {
