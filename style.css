@@ -70,6 +70,16 @@ main {
 .card img {
   height: 41.6rem;
   object-fit: cover;
+  border-radius: 6px;
+  transition-property: all;
+  transition: 2s;
+  transition-delay: 0.2s;
+  transition-timing-function: ea;
+
+}
+.card img:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
 }
 
 .card h2 {
